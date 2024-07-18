@@ -1,0 +1,92 @@
+#%% importing packages
+import torch
+from fairscale.nn.data_parallel import FullyShardedDataParallel as FSDP
+from fairscale.nn.wrap import enable_wrap, wrap
+import esm
+from esm import FastaBatchedDataset
+from tqdm import tqdm
+
+import sys
+sys.path.append('/mnt/yizhou/Shenzhen_GLM_Project/Core/')
+
+from Utils.utils import get_data_logger
+import pickle as pk
+
+logger = get_data_logger('ESM2_Inference')
+
+def get_model_data():
+    """
+    Pre-trained model of ESM2. Mannualy download the model from the hub and load it.
+    """
+    model_data = torch.load(
+        f"{torch.hub.get_dir()}/checkpoints/esm2_t33_650M_UR50D.pt",
+        map_location="cpu",
+    )
+
+    regression_data = torch.load(
+        f"{torch.hub.get_dir()}/checkpoints/esm2_t33_650M_UR50D-contact-regression.pt",
+        map_location="cpu",
+    )
+    return model_data, regression_data
+
+# %% Get model 
+model_name = "esm2_t33_650M_UR50D"
+model_data, regression_data = get_model_data()
+
+# %% set distributed backend
+url = "tcp://localhost:23456"
+torch.distributed.init_process_group(backend="nccl", init_method=url, world_size=1, rank=0)
+fsdp_params = dict(
+    mixed_precision=True,
+    flatten_parameters=True,
+    state_dict_device=torch.device("cpu"),  # reduce GPU mem usage
+    cpu_offload=True,  # enable cpu offloading
+)
+
+# %% data preparation
+toks_per_batch = 12290
+dataset = FastaBatchedDataset.from_file('/mnt/yizhou/Data/Preparation_Data/Sampled_fasta.fasta')
+batches = dataset.get_batch_indices(toks_per_batch, extra_toks_per_seq=1)
+
+# %% model preparation
+with enable_wrap(wrapper_cls=FSDP, **fsdp_params):
+    model, vocab = esm.pretrained.load_model_and_alphabet_core(
+        model_name, model_data, regression_data
+    )
+    data_loader = torch.utils.data.DataLoader(
+        dataset, collate_fn=vocab.get_batch_converter(), batch_sampler=batches
+    )
+    model.eval()
+
+    # Wrap each layer in FSDP separately
+    for name, child in model.named_children():
+        if name == "layers":
+            for layer_name, layer in child.named_children():
+                wrapped_layer = wrap(layer)
+                setattr(child, layer_name, wrapped_layer)
+    model = wrap(model)
+
+# %% where to store results
+sequence_representations = []
+
+# %% infer embedding from ESM2
+with torch.no_grad():
+    for batch_idx, (labels, strs, toks) in tqdm(enumerate(data_loader), total = len(data_loader)):
+        toks = toks.cuda()
+        logger.info(f"shape of tks{toks.shape}")
+        toks = toks[:, :12288] #truncate 
+        results = model(toks, repr_layers=[33], return_contacts=False)
+        token_representations = results["representations"][33]
+        for i, label in enumerate(labels):
+            truncate_len = min(12288, len(strs[i]))
+            sequence_representations.append((label,token_representations[i, 1 : truncate_len + 1].mean(0).detach().cpu().numpy()))
+
+f = open('/mnt/yizhou/Data/Preparation_Data/test_esm.pkl', "wb")
+pk.dump(sequence_representations,f)
+f.close()
+# %%
+with open('/mnt/yizhou/Data/Preparation_Data/test_esm.pkl', "rb") as f:
+    sequence_representations = pk.load(f)
+
+
+# %%

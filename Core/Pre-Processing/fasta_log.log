@@ -1,0 +1,17 @@
+2024-07-18 03:50:06,350 - fasta_log - INFO - The fasta file has 128012 sequences
+2024-07-18 07:08:17,451 - fasta_log - INFO - The fasta file has 128012 sequences
+2024-07-18 07:08:57,685 - fasta_log - INFO - The fasta file has 128012 sequences
+2024-07-18 07:10:38,156 - fasta_log - INFO - The fasta file has 128012 sequences
+2024-07-18 07:14:17,118 - fasta_log - INFO - The fasta file has 128012 sequences
+2024-07-18 07:16:16,525 - fasta_log - INFO - The fasta file has 128012 sequences
+2024-07-18 07:16:16,526 - fasta_log - INFO - Extracting 0 sequences
+2024-07-18 07:16:16,526 - fasta_log - ERROR - No sequences were selected. Check the percentage value.
+2024-07-18 07:16:35,014 - fasta_log - INFO - The fasta file has 128012 sequences
+2024-07-18 07:16:35,014 - fasta_log - INFO - Extracting 0 sequences
+2024-07-18 07:16:35,014 - fasta_log - ERROR - No sequences were selected. Check the percentage value.
+2024-07-18 07:16:47,961 - fasta_log - INFO - The fasta file has 128012 sequences
+2024-07-18 07:16:47,961 - fasta_log - INFO - Extracting 1280 sequences
+2024-07-18 07:16:47,981 - fasta_log - INFO - Sequences written to /mnt/yizhou/Data/Preparation_Data/Sampled_fasta.fasta
+2024-07-18 07:35:51,092 - fasta_log - INFO - The fasta file has 128012 sequences
+2024-07-18 07:35:51,092 - fasta_log - INFO - Extracting 128 sequences
+2024-07-18 07:35:51,128 - fasta_log - INFO - Sequences written to /mnt/yizhou/Data/Preparation_Data/Sampled_fasta.fasta
