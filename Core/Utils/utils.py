@@ -6,16 +6,15 @@ from functools import wraps
 def path_check(path_param_index=0):
     def decorator(func):
         @wraps(func)
-        def wrapper(*args, **kwargs):
+        def wrapper(*args):
             # 获取路径参数
-            path = args[path_param_index] if path_param_index < len(args) else kwargs.get(path_param_index)
-            
+            path = args[path_param_index] 
             # 检查并创建路径
             if path and not os.path.exists(path):
                 os.makedirs(path)
                 print(f'Created the {path} directory')
             
-            return func(*args, **kwargs)
+            return func(*args)
         return wrapper
     return decorator
 
@@ -36,3 +35,5 @@ def get_data_logger(name):
     logger.addHandler(ch)
     
     return logger
+
+
