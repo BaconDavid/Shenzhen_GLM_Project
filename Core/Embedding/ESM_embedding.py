@@ -64,7 +64,7 @@ fsdp_params = dict(
 )
 # %% data preparation
 toks_per_batch = 12290
-dataset = FastaBatchedDataset.from_file('/mnt/yizhou/Data/Preparation_Data/Sampled_fasta.fasta')
+dataset = FastaBatchedDataset.from_file(fasta_file)
 batches = dataset.get_batch_indices(toks_per_batch, extra_toks_per_seq=1)
 
 # %% model preparation
@@ -100,11 +100,11 @@ with torch.no_grad():
             truncate_len = min(12288, len(strs[i]))
             sequence_representations.append((label,token_representations[i, 1 : truncate_len + 1].mean(0).detach().cpu().numpy()))
 
-f = open('/mnt/yizhou/Data/Preparation_Data/test_esm.pkl', "wb")
+f = open(output_pkl, "wb")
 pk.dump(sequence_representations,f)
 f.close()
 # %%
-with open('/mnt/yizhou/Data/Preparation_Data/test_esm.pkl', "rb") as f:
+with open(output_pkl, "rb") as f:
     sequence_representations = pk.load(f)
 
 

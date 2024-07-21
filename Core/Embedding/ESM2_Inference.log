@@ -3,3 +3,9 @@
 2024-07-21 23:11:36,746 - ESM2_Inference - INFO - shape of tkstorch.Size([32, 375])
 2024-07-21 23:11:38,143 - ESM2_Inference - INFO - shape of tkstorch.Size([16, 764])
 2024-07-21 23:11:39,483 - ESM2_Inference - INFO - shape of tkstorch.Size([6, 1729])
+2024-07-21 23:14:36,708 - ESM2_Inference - INFO - 3
+2024-07-21 23:15:25,002 - ESM2_Inference - INFO - 3
+2024-07-21 23:15:59,672 - ESM2_Inference - INFO - shape of tkstorch.Size([74, 167])
+2024-07-21 23:16:01,942 - ESM2_Inference - INFO - shape of tkstorch.Size([32, 375])
+2024-07-21 23:16:03,155 - ESM2_Inference - INFO - shape of tkstorch.Size([16, 764])
+2024-07-21 23:16:04,260 - ESM2_Inference - INFO - shape of tkstorch.Size([6, 1729])
