@@ -1,0 +1,5 @@
+2024-07-21 23:09:58,617 - ESM2_Inference - INFO - 2
+2024-07-21 23:11:34,345 - ESM2_Inference - INFO - shape of tkstorch.Size([74, 167])
+2024-07-21 23:11:36,746 - ESM2_Inference - INFO - shape of tkstorch.Size([32, 375])
+2024-07-21 23:11:38,143 - ESM2_Inference - INFO - shape of tkstorch.Size([16, 764])
+2024-07-21 23:11:39,483 - ESM2_Inference - INFO - shape of tkstorch.Size([6, 1729])

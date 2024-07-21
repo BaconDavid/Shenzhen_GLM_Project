@@ -11,27 +11,48 @@ sys.path.append('/mnt/yizhou/Shenzhen_GLM_Project/Core/')
 
 from Utils.utils import get_data_logger
 import pickle as pk
+from typing import Literal,get_args
 
+# %% get logger
 logger = get_data_logger('ESM2_Inference')
+logger.info(len(sys.argv))
 
-def get_model_data():
-    """
-    Pre-trained model of ESM2. Mannualy download the model from the hub and load it.
-    """
-    model_data = torch.load(
-        f"{torch.hub.get_dir()}/checkpoints/esm2_t33_650M_UR50D.pt",
-        map_location="cpu",
-    )
+# %% get inputs pars
+fasta_file = sys.argv[1]
+output_pkl = sys.argv[2]
 
-    regression_data = torch.load(
-        f"{torch.hub.get_dir()}/checkpoints/esm2_t33_650M_UR50D-contact-regression.pt",
-        map_location="cpu",
-    )
-    return model_data, regression_data
+# %% ESM model type
+ESM_model_name = Literal['ESM2','ESM3']
+# %% get model
+class EsmModel:
+    ESM_model_parameters = {
+        'ESM2': ('esm2_t33_650M_UR50D.pt', 'esm2_t33_650M_UR50D-contact-regression.pt')
+    }  # model name: (model, regression)
 
-# %% Get model 
-model_name = "esm2_t33_650M_UR50D"
-model_data, regression_data = get_model_data()
+    def __init__(self, ESM_model_type: ESM_model_name = 'ESM2'):
+        if ESM_model_type not in get_args(ESM_model_name):
+            raise ValueError(f"ESM model {ESM_model_type} is not supported")
+        self.ESM_model_type = ESM_model_type
+
+    def get_model_data(self):
+        """
+        Pre-trained model of ESM2. Manually download the model from the hub and load it.
+        """
+        model_data = torch.load(
+            f"{torch.hub.get_dir()}/checkpoints/{self.ESM_model_parameters[self.ESM_model_type][0]}",
+            map_location="cpu",
+        )
+        regression_data = torch.load(
+            f"{torch.hub.get_dir()}/checkpoints/{self.ESM_model_parameters[self.ESM_model_type][1]}",
+            map_location="cpu",
+        )
+        return model_data, regression_data
+
+
+# %% Get model
+esm_model = EsmModel('ESM2')
+model_name = 'esm2_t33_650M_UR50D'  # for load model
+model_data, regression_data = esm_model.get_model_data()
 
 # %% set distributed backend
 url = "tcp://localhost:23456"
@@ -39,10 +60,8 @@ torch.distributed.init_process_group(backend="nccl", init_method=url, world_size
 fsdp_params = dict(
     mixed_precision=True,
     flatten_parameters=True,
-    state_dict_device=torch.device("cpu"),  # reduce GPU mem usage
-    cpu_offload=True,  # enable cpu offloading
+    state_dict_device=torch.device("cpu"),  # reduce GPU
 )
-
 # %% data preparation
 toks_per_batch = 12290
 dataset = FastaBatchedDataset.from_file('/mnt/yizhou/Data/Preparation_Data/Sampled_fasta.fasta')
