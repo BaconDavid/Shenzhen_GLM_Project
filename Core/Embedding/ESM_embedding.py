@@ -107,5 +107,4 @@ f.close()
 with open(output_pkl, "rb") as f:
     sequence_representations = pk.load(f)
 
-
 # %%

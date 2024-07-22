@@ -1,6 +1,7 @@
 import os
 import logging
 from functools import wraps
+import pickle as pk
 
 #check if path is created by index or par name.
 def path_check(path_param_index=0):
@@ -35,5 +36,13 @@ def get_data_logger(name):
     logger.addHandler(ch)
     
     return logger
+
+def load_esm_embedding(pickle_file:str):
+    """
+    Load esm embedding from pickle file
+    """
+    with open(pickle_file, 'rb') as f:
+        esm_embedding = pk.load(f)
+    return esm_embedding
 
 
