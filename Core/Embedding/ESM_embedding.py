@@ -20,6 +20,7 @@ logger.info(len(sys.argv))
 # %% get inputs pars
 fasta_file = sys.argv[1]
 output_pkl = sys.argv[2]
+ESM_model = sys.argv[3]
 
 # %% ESM model type
 ESM_model_name = Literal['ESM2','ESM3']
@@ -108,3 +109,6 @@ with open(output_pkl, "rb") as f:
     sequence_representations = pk.load(f)
 
 # %%
+if __name__ == '__main__':
+    esm_model = EsmModel('ESM2')
+    

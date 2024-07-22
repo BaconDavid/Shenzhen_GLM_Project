@@ -41,8 +41,14 @@ def load_esm_embedding(pickle_file:str):
     """
     Load esm embedding from pickle file
     """
+    esm_embedding, esm_embedding_accession = [], []
     with open(pickle_file, 'rb') as f:
-        esm_embedding = pk.load(f)
-    return esm_embedding
+        esm_embedding_all = pk.load(f)
+    
+    for embeddings_info in esm_embedding_all:
+        esm_embedding_accession.append(embeddings_info[0])
+        esm_embedding.append(embeddings_info[1])
+        
+    return esm_embedding, esm_embedding_accession
 
 
