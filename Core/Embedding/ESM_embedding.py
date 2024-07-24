@@ -21,7 +21,10 @@ logger.info(len(sys.argv))
 fasta_file = sys.argv[1]
 output_pkl = sys.argv[2]
 ESM_model = sys.argv[3]
-
+# %% for test
+fasta_file = '/mnt/yizhou/Data/Preparation_Data/Sampled_fasta.fasta'
+output_pkl = '/mnt/yizhou/Data/Preparation_Data/Sampled_ESM2_embedding.pkl'
+ESM_model = 'ESM2'
 # %% ESM model type
 ESM_model_name = Literal['ESM2','ESM3']
 # %% get model
