@@ -15,3 +15,4 @@
 2024-07-24 18:47:54,052 - ESM2_Inference - INFO - shape of tkstorch.Size([32, 375])
 2024-07-24 18:47:54,174 - ESM2_Inference - INFO - shape of tkstorch.Size([16, 764])
 2024-07-24 18:47:54,282 - ESM2_Inference - INFO - shape of tkstorch.Size([6, 1729])
+2024-08-06 23:43:16,047 - ESM2_Inference - INFO - 2
