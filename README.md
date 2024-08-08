@@ -6,7 +6,7 @@ Directly load the model's weight
 ## ESM3
 Since this model is not open yet (need to apply for authority), in the source code you have to download it remotely (You may also upload from local but I found there was some problem with the path). 
 
-Due to the limitation of network in CN :face_with_head_bandage:, the model weight is downloaded and stored locally. Besides, you have to clone the ESM3 locally and change the path in source code where you store the weight. The code is in **/mnt/yizhou/git_projects/esm/esm/utils/constants/data_root function** You have to change the path from default value of **esm/esm3/** to your weight path.
+Due to the limitation of network :face_with_head_bandage:, the model weight is downloaded and stored locally. Besides, you have to clone the ESM3 locally and change the path in source code where you store the weight. The code is in **/mnt/yizhou/git_projects/esm/esm/utils/constants/data_root function** You have to change the path from default value of **esm/esm3/** to your weight path.
 
 After change the path, you can directly load the model with the code:
 
