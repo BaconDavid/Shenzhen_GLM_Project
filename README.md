@@ -33,7 +33,3 @@ model = model.to(torch.float32)
 embeddings = model(sequence_tokens = protein_tensor.sequence.unsqueeze(0)).embeddings
 
 ```
-
-
-
- Test again
