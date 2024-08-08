@@ -33,3 +33,11 @@ model = model.to(torch.float32)
 embeddings = model(sequence_tokens = protein_tensor.sequence.unsqueeze(0)).embeddings
 
 ```
+## Getting embeddings
+
+Run the embedding infernece file: 
+For example: Run ESM2:
+``` python
+python esm_embedding_inference.py --ESM_model_type ESM3 --ESM_model_name esm3_sm_open_v1  --fasta_file /mnt/yizhou/Data/Preparation_Data/Sampled_one_fasta.fasta --output_pkl /mnt/yizhou/Data/Preparation_Data/test_esm.pkl --device cuda
+```
+**Attention:** When running ESM3 you need to activate a new virtual environment for ESM3 inference, as process of ESM3 inference is different from ESM2, but they have the same package name. 
