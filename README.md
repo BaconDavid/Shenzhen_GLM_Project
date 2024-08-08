@@ -38,3 +38,4 @@ embeddings = model(sequence_tokens = protein_tensor.sequence.unsqueeze(0)).embed
 
  
 
+test Deep crisper
