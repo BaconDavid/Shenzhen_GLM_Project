@@ -1,7 +1,17 @@
+
+
+
 import os
 import logging
-from functools import wraps
+#from esm.sdk.api import ESMProtein
+
+
 import pickle as pk
+from typing import Sequence, Tuple
+from functools import wraps
+import torch
+#batch protein seqs from fasta file by length of proteins
+
 
 #check if path is created by index or par name.
 def path_check(path_param_index=0):
@@ -52,3 +62,9 @@ def load_esm_embedding(pickle_file:str):
     return esm_embedding, esm_embedding_accession
 
 
+if __name__ == '__main__':
+    fasta_file = '/mnt/yizhou/Data/Preparation_Data/Sampled_fasta.fasta'
+    output_pkl = '/mnt/yizhou/Data/Preparation_Data/Sampled_ESM2_embedding.pkl'
+    data_loader = torch.utils.data.DataLoader(
+        dataset, collate_fn=vocab.get_batch_converter(), batch_sampler=batches
+    )
