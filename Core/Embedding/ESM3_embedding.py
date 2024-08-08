@@ -11,7 +11,7 @@ from tqdm import tqdm
 from Utils.Data.esm3_batch_inference import FastaBatchedDataset,BatchConverter
 
 # %% constant parameters
-tok_per_batch = 12290
+tok_per_batch = 6990
 class ESM:
     def __init__(self,model_name:str = 'esm3_sm_open_v1'):
         self.model_name = model_name

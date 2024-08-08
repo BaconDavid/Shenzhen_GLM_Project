@@ -1,8 +1,6 @@
 import os
 import argparse
 import sys
-sys.path.append('/mnt/yizhou/Shenzhen_GLM_Project/Core/')
-
 
 from Bio import SeqIO
 import random
