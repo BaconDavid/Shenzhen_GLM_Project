@@ -12,7 +12,7 @@ import pickle as pk
 from typing import Literal,get_args
 
 
-toks_per_batch = 6990
+toks_per_batch = 12290
 class ESM:
     ESM_model_parameters = {
     'esm2_t33_650M_UR50D': ('esm2_t33_650M_UR50D.pt', 'esm2_t33_650M_UR50D-contact-regression.pt')

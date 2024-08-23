@@ -1,7 +1,8 @@
 # %%
-from ast import arg
 import sys
 import argparse
+from typing import Sequence, List
+
 from sympy import sequence
 import torch
 from tqdm import tqdm
@@ -77,13 +78,16 @@ class EsmEmbeddingInference:
                 toks = toks[:, :12288] #truncate 
                 results = model(sequence_tokens = toks)
                 token_representations = results.embeddings
+                print(token_representations,'normalized!')
+
                 for i, label in enumerate(labels):
                     truncate_len = min(12288, len(strs[i]))
                     sequence_representations.append((label,token_representations[i, 1 : truncate_len + 1].mean(0).detach().cpu().numpy()))
         return sequence_representations
 
-@path_check()
-def embedding_save(output_pkl:str = None):
+
+def embedding_save(output_pkl:str = None, sequence_representations:List = None):
+    print(sequence_representations,666)
     with open(output_pkl, "wb") as f:
         pk.dump(sequence_representations, f)
 # %% inference
@@ -97,12 +101,14 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     esm_model = EsmModel(args.ESM_model_type,args.ESM_model_name)
-    model = esm_model.get_esm_model().to(args.device)
+    model = esm_model.get_esm_model()
+    model.eval()
+    model.to(args.device)
     data_loader = esm_model.get_esm_dataloader(fasta_file=args.fasta_file)
     embedding_inference = EsmEmbeddingInference(model,data_loader,args.device,esm_model_type=args.ESM_model_type)
     sequence_representations = embedding_inference.embedding_inference()
     #save embeddings
-    embedding_save(args.output_pkl)
+    embedding_save(args.output_pkl,sequence_representations)
 
 
 
