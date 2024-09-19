@@ -1,0 +1,243 @@
+	Label1	Label2	Count	Label1_Count	Label2_Count	Normalization_Factor	Count_normalized
+14	DNA polymerase III beta subunit, C-terminal domain	DNA polymerase III beta subunit, N-terminal domain	211	22.0	17.0	19.339079605813716	10.910550258894904
+15	DNA polymerase III beta subunit, N-terminal domain	DNA polymerase III beta subunit, central domain	211	17.0	22.0	19.339079605813716	10.910550258894904
+17	DNA polymerase III beta subunit, C-terminal domain	DNA polymerase III beta subunit, central domain	234	22.0	22.0	22.0	10.636363636363637
+61	Starch-binding associating with outer membrane	SusD family	48	10.0	10.0	10.0	4.8
+78	Bacterial Ig-like domain (group 2)	Secretion system C-terminal sorting domain	33	35.0	51.0	42.24926034855522	0.7810787627463989
+83	BspA type Leucine rich repeat region (6 copies)	Divergent InlB B-repeat domain	40	63.0	38.0	48.92851929090027	0.8175191193132878
+85	BspA type Leucine rich repeat region (6 copies)	Leucine Rich Repeat	54	63.0	35.0	46.95742752749558	1.1499778169998918
+86	BspA type Leucine rich repeat region (6 copies)	Leucine rich repeat N-terminal domain	37	63.0	16.0	31.74901573277509	1.1653904584451171
+87	BspA type Leucine rich repeat region (6 copies)	Leucine rich repeat	32	63.0	26.0	40.47221268969612	0.7906659377718414
+89	BspA type Leucine rich repeat region (6 copies)	Secretion system C-terminal sorting domain	107	63.0	51.0	56.68333088307355	1.8876801756890353
+90	BspA type Leucine rich repeat region (6 copies)	Mycoplasma protein of unknown function, DUF285	74	63.0	30.0	43.474130238568314	1.7021617130444737
+92	BspA type Leucine rich repeat region (6 copies)	Calx-beta domain	42	63.0	13.0	28.61817604250837	1.4675987714106855
+96	HD domain	Type III restriction enzyme, res subunit	38	97.0	44.0	65.3299318842443	0.5816629361764957
+97	DEAD/DEAH box helicase	Type III restriction enzyme, res subunit	365	223.0	44.0	99.05553997631834	3.684801476901365
+98	Helicase conserved C-terminal domain	Type III restriction enzyme, res subunit	305	209.0	44.0	95.89577675789482	3.1805363104782427
+100	Cas3, HD domain	Type III restriction enzyme, res subunit	238	128.0	44.0	75.04665215717488	3.171360655789705
+104	DEAD/DEAH box helicase	HD domain	282	223.0	97.0	147.0748108956799	1.917391552520999
+105	HD domain	Helicase conserved C-terminal domain	206	97.0	209.0	142.38328553590833	1.4467990342029848
+107	Cas3, HD domain	HD domain	166	128.0	97.0	111.42710621747295	1.4897631791318067
+125	Actin like proteins N terminal domain	CRISPR associated protein Cas1	32	7.0	95.0	25.787593916455254	1.24090677492717
+126	Archaeal actin homologue MreB-like, C-terminal	CRISPR associated protein Cas1	32	7.0	95.0	25.787593916455254	1.24090677492717
+128	CRISPR associated protein Cas1	Reverse transcriptase (RNA-dependent DNA polymerase)	218	95.0	96.0	95.49869109050658	2.2827538001897403
+129	Actin like proteins N terminal domain	Reverse transcriptase (RNA-dependent DNA polymerase)	32	7.0	96.0	25.92296279363144	1.2344267996967353
+130	Archaeal actin homologue MreB-like, C-terminal	Reverse transcriptase (RNA-dependent DNA polymerase)	32	7.0	96.0	25.92296279363144	1.2344267996967353
+133	HNH endonuclease	REC lobe of CRISPR-associated endonuclease Cas9	1207	332.0	66.0	148.02702455970666	8.15391651348877
+134	HNH endonuclease	PAM-interacting domain of CRISPR-associated endonuclease Cas9	1041	332.0	43.0	119.48221624995077	8.712593661823954
+135	Bridge helix of CRISPR-associated endonuclease Cas9	HNH endonuclease	369	31.0	332.0	101.44949482377919	3.637277845897252
+136	HNH endonuclease	RuvC endonuclease subdomain 3	5417	332.0	238.0	281.0978477327779	19.270869712064115
+137	PAM-interacting domain of CRISPR-associated endonuclease Cas9	REC lobe of CRISPR-associated endonuclease Cas9	414	43.0	66.0	53.27288240746881	7.771308427305176
+139	Bridge helix of CRISPR-associated endonuclease Cas9	PAM-interacting domain of CRISPR-associated endonuclease Cas9	68	31.0	43.0	36.51027252705737	1.8624895212602408
+140	PAM-interacting domain of CRISPR-associated endonuclease Cas9	RuvC endonuclease subdomain 3	429	43.0	238.0	101.1632344283238	4.24067105430437
+142	Bridge helix of CRISPR-associated endonuclease Cas9	REC lobe of CRISPR-associated endonuclease Cas9	299	31.0	66.0	45.232731511594565	6.610257439866459
+143	REC lobe of CRISPR-associated endonuclease Cas9	RuvC endonuclease subdomain 3	607	66.0	238.0	125.33156027114639	4.843153621376742
+144	Bacterial Ig-like domain (group 2)	BspA type Leucine rich repeat region (6 copies)	33	35.0	63.0	46.95742752749558	0.7027642214999339
+161	BspA type Leucine rich repeat region (6 copies)	S-layer homology domain	38	63.0	37.0	48.28043081829324	0.7870683702681868
+177	Nuclease domain	RuvC nuclease domain	322	37.0	45.0	40.80441152620633	7.891303610473536
+179	CRISPR-associated endonuclease Cas9 alpha-helical lobe	Nuclease domain	34	5.0	37.0	13.601470508735444	2.499729715118946
+180	HNH endonuclease	Nuclease domain	34	332.0	37.0	110.83320801997928	0.3067672641386597
+183	CRISPR-associated endonuclease Cas9 alpha-helical lobe	RuvC nuclease domain	34	5.0	45.0	15.0	2.2666666666666666
+184	HNH endonuclease	RuvC nuclease domain	34	332.0	45.0	122.22929272478018	0.27816572641516235
+186	DEAD/DEAH box helicase	Helicase conserved C-terminal domain	2078	223.0	209.0	215.88654427731248	9.625426202249775
+187	Cas3, HD domain	DEAD/DEAH box helicase	1514	128.0	223.0	168.949696655543	8.961247223111412
+189	Cas3 C-terminal domain	DEAD/DEAH box helicase	270	21.0	223.0	68.4324484437025	3.9454967071961717
+191	Cas3, HD domain	Helicase conserved C-terminal domain	1280	128.0	209.0	163.56038640208698	7.825855808712296
+192	Cas3 C-terminal domain	Helicase conserved C-terminal domain	260	21.0	209.0	66.24952830020754	3.9245562447149602
+201	His Kinase A (phospho-acceptor) domain	Response regulator receiver domain	243	116.0	107.0	111.40915581764364	2.181149280026378
+202	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	Response regulator receiver domain	325	180.0	107.0	138.78040207464454	2.3418292146552164
+203	PAS domain	Response regulator receiver domain	242	59.0	107.0	79.45438943192504	3.0457725712855783
+207	PAS fold	Response regulator receiver domain	324	82.0	107.0	93.66963221877195	3.458965219840678
+208	His Kinase A (phospho-acceptor) domain	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	557	116.0	180.0	144.49913494550754	3.8546943565444307
+210	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PAS domain	326	180.0	59.0	103.05338422390601	3.163408969585062
+211	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	Resolvase, N terminal domain	87	180.0	34.0	78.23042886243178	1.1120992338286873
+212	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	Recombinase	112	180.0	31.0	74.6993975879324	1.4993427472846645
+213	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	Recombinase zinc beta ribbon domain	53	180.0	13.0	48.373546489791295	1.0956401555380082
+214	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PAS fold	388	180.0	82.0	121.49074038789952	3.1936590291670064
+223	His Kinase A (phospho-acceptor) domain	PAS domain	260	116.0	59.0	82.72847151978574	3.1428116006932045
+224	His Kinase A (phospho-acceptor) domain	Resolvase, N terminal domain	66	116.0	34.0	62.80127387243033	1.0509340962424953
+225	His Kinase A (phospho-acceptor) domain	Recombinase	72	116.0	31.0	59.9666574022598	1.2006672227371262
+226	His Kinase A (phospho-acceptor) domain	Recombinase zinc beta ribbon domain	30	116.0	13.0	38.8329756778952	0.7725393039369071
+227	His Kinase A (phospho-acceptor) domain	PAS fold	294	116.0	82.0	97.52948272189288	3.0144730782418527
+228	Cas9 alpha-helical lobe domain	HNH endonuclease	1226	54.0	332.0	133.89548162652838	9.156395608775313
+229	Cas9 alpha-helical lobe domain	REC lobe of CRISPR-associated endonuclease Cas9	80	54.0	66.0	59.6992462263972	1.340050420345616
+230	Cas9 alpha-helical lobe domain	PAM-interacting domain of CRISPR-associated endonuclease Cas9	38	54.0	43.0	48.187135212627034	0.7885922213952744
+232	Cas9 alpha-helical lobe domain	RuvC endonuclease subdomain 3	1064	54.0	238.0	113.3666617661471	9.38547526604268
+244	Bacterial regulatory helix-turn-helix protein, lysR family	LysR substrate binding domain	40	32.0	32.0	32.0	1.25
+275	Bacterial regulatory proteins, luxR family	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	31	23.0	180.0	64.34283176858165	0.4817941509241621
+284	Response regulator receiver domain	Transcriptional regulatory protein, C terminal	38	107.0	12.0	35.832945734337834	1.0604765871533004
+286	Bacterial regulatory proteins, luxR family	Response regulator receiver domain	56	23.0	107.0	49.60846701924985	1.128839558341321
+292	KorB domain	ParB/Sulfiredoxin domain	62	15.0	88.0	36.3318042491699	1.706493835945859
+296	Bridge helix of CRISPR-associated endonuclease Cas9	RuvC endonuclease subdomain 3	221	31.0	238.0	85.89528508596965	2.5729002445106115
+297	CRISPR-Cas9 PI domain	RuvC endonuclease subdomain 3	233	24.0	238.0	75.57777451076474	3.0829169224454103
+298	CRISPR-Cas9 WED domain	RuvC endonuclease subdomain 3	258	23.0	238.0	73.98648525237566	3.4871233458372153
+299	CRISPR-Cas9 PI domain	HNH endonuclease	296	24.0	332.0	89.26365441768559	3.3160192906168344
+300	CRISPR-Cas9 WED domain	HNH endonuclease	321	23.0	332.0	87.38420909981392	3.673432572163471
+302	Initiator Rep protein, WH2	Initiator Replication protein, WH1	1398	247.0	247.0	247.0	5.659919028340081
+327	Cas9 C-terminal domain	RuvC endonuclease subdomain 3	188	19.0	238.0	67.24581771381771	2.79571289920339
+328	Cas9 C-terminal domain	Topo homolgy domain in CRISPR-associated endonuclease Cas9	90	19.0	19.0	19.0	4.7368421052631575
+329	CRISPR-associated endonuclease Cas9 beta-hairpin domain	Cas9 C-terminal domain	90	15.0	19.0	16.881943016134134	5.331139899831831
+330	Cas9 C-terminal domain	Cas9 alpha-helical lobe domain	53	19.0	54.0	32.03123475609393	1.6546349337943262
+331	Cas9 C-terminal domain	HNH endonuclease	212	19.0	332.0	79.42291860665912	2.669254715379159
+333	RuvC endonuclease subdomain 3	Topo homolgy domain in CRISPR-associated endonuclease Cas9	188	238.0	19.0	67.24581771381771	2.79571289920339
+335	CRISPR-associated endonuclease Cas9 beta-hairpin domain	Topo homolgy domain in CRISPR-associated endonuclease Cas9	90	15.0	19.0	16.881943016134134	5.331139899831831
+336	Cas9 alpha-helical lobe domain	Topo homolgy domain in CRISPR-associated endonuclease Cas9	53	54.0	19.0	32.03123475609393	1.6546349337943262
+337	HNH endonuclease	Topo homolgy domain in CRISPR-associated endonuclease Cas9	212	332.0	19.0	79.42291860665912	2.669254715379159
+339	CRISPR-associated endonuclease Cas9 beta-hairpin domain	RuvC endonuclease subdomain 3	188	15.0	238.0	59.74947698515862	3.1464710569215186
+340	RRXRR protein	RuvC endonuclease subdomain 3	72	9.0	238.0	46.281745861624536	1.5556889365251947
+342	CRISPR-associated endonuclease Cas9 beta-hairpin domain	Cas9 alpha-helical lobe domain	53	15.0	54.0	28.460498941515414	1.8622301776547123
+343	CRISPR-associated endonuclease Cas9 beta-hairpin domain	HNH endonuclease	212	15.0	332.0	70.5691150575094	3.0041470667052192
+347	HNH endonuclease	RRXRR protein	126	332.0	9.0	54.662601474865795	2.3050494597834974
+352	Sigma-70 region 2	Sigma-70, region 4	450	67.0	67.0	67.0	6.7164179104477615
+359	Helix-turn-helix domain	Response regulator receiver domain	36	118.0	107.0	112.36547512470189	0.32038310664416825
+360	Diguanylate cyclase, GGDEF domain	Response regulator receiver domain	246	68.0	107.0	85.29947244854449	2.883956874978277
+361	EAL domain	Response regulator receiver domain	143	39.0	107.0	64.59876159803684	2.2136647276585837
+367	Bacterial regulatory proteins, luxR family	Diguanylate cyclase, GGDEF domain	38	23.0	68.0	39.54743986657038	0.9608713011059299
+368	Bacterial regulatory proteins, luxR family	EAL domain	30	23.0	39.0	29.949958263743873	1.0016708449412668
+369	HTH-like domain	Integrase core domain	30	8.0	49.0	19.79898987322333	1.5152288168283161
+374	Integrase core domain	Reverse transcriptase (RNA-dependent DNA polymerase)	34	49.0	96.0	68.58571279792899	0.49573006699183364
+379	LPXTG cell wall anchor motif	Prealbumin-like fold domain	36	32.0	25.0	28.284271247461902	1.2727922061357855
+406	Phage integrase SAM-like domain	Phage integrase family	143	18.0	98.0	42.0	3.4047619047619047
+407	Phage integrase SAM-like domain	Phage integrase, N-terminal SAM-like domain	109	18.0	84.0	38.88444419044716	2.8031775243113364
+409	Arm DNA-binding domain	Phage integrase SAM-like domain	70	34.0	18.0	24.73863375370596	2.8295822920905516
+411	Phage integrase family	Phage integrase, N-terminal SAM-like domain	981	98.0	84.0	90.73036977771004	10.81225616520087
+412	Arm DNA-binding domain	Phage integrase family	308	34.0	98.0	57.723478758647246	5.335783750799325
+419	CRISPR-Cas9 WED domain	PAM-interacting domain of CRISPR-associated endonuclease Cas9	43	23.0	43.0	31.448370387032774	1.3673204516101207
+420	CRISPR-Cas9 PI domain	PAM-interacting domain of CRISPR-associated endonuclease Cas9	43	24.0	43.0	32.12475680841802	1.3385315336840842
+443	KhpA/KhpB, KH domain	R3H domain	93	20.0	21.0	20.493901531919196	4.537935339210679
+445	Jag N-terminus	KhpA/KhpB, KH domain	68	13.0	20.0	16.1245154965971	4.217180976033088
+446	ABC transporter	KhpA/KhpB, KH domain	50	26.0	20.0	22.80350850198276	2.1926450482675732
+448	ABC transporter transmembrane region	KhpA/KhpB, KH domain	40	15.0	20.0	17.320508075688775	2.309401076758503
+452	Jag N-terminus	R3H domain	79	13.0	21.0	16.522711641858304	4.781297508083539
+453	ABC transporter	R3H domain	56	26.0	21.0	23.366642891095847	2.396578758061112
+455	ABC transporter transmembrane region	R3H domain	46	15.0	21.0	17.74823934929885	2.5918063811674505
+459	ABC transporter	Jag N-terminus	37	26.0	13.0	18.384776310850235	2.0125346849155585
+462	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	Tetratricopeptide repeat	107	180.0	83.0	122.22929272478018	0.8754039037183051
+463	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	TPR repeat	34	180.0	23.0	64.34283176858165	0.5284193913361779
+464	Histidine kinase	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	129	34.0	180.0	78.23042886243178	1.6489747260218466
+465	His Kinase A (phospho-acceptor) domain	Tetratricopeptide repeat	50	116.0	83.0	98.12237257628864	0.5095677844634848
+467	His Kinase A (phospho-acceptor) domain	Histidine kinase	84	116.0	34.0	62.80127387243033	1.3375524861268122
+475	Cas3 C-terminal domain	Cas3, HD domain	226	21.0	128.0	51.84592558726288	4.359069636429096
+476	CRISPR-Cas9 PI domain	Cas9 alpha-helical lobe domain	44	24.0	54.0	36.0	1.2222222222222223
+477	CRISPR-Cas9 WED domain	Cas9 alpha-helical lobe domain	47	23.0	54.0	35.24202037341219	1.3336352315220397
+483	TonB dependent receptor	TonB-dependent Receptor Plug Domain	85	15.0	17.0	15.968719422671311	5.322906474223771
+486	Choline-binding repeat	Putative cell wall binding repeat	179	45.0	41.0	42.95346318982906	4.167300764758483
+610	CRISPR associated protein Cas6, C-terminal	CRISPR-associated protein Cas6, N-terminal	625	53.0	56.0	54.47935388750494	11.472235909599256
+644	Initiator Replication protein, WH1	Protein kinase domain	39	247.0	41.0	100.63299657666963	0.3875468417586763
+646	Initiator Rep protein, WH2	Protein kinase domain	39	247.0	41.0	100.63299657666963	0.3875468417586763
+686	AAA domain	Reverse transcriptase (RNA-dependent DNA polymerase)	36	108.0	96.0	101.82337649086284	0.3535533905932738
+754	Ankyrin repeats (3 copies)	Ankyrin repeats (many copies)	108	45.0	39.0	41.892720131306824	2.5780135465419582
+757	Mycoplasma protein of unknown function, DUF285	Secretion system C-terminal sorting domain	55	30.0	51.0	39.11521443121589	1.4061024795535126
+758	Divergent InlB B-repeat domain	Secretion system C-terminal sorting domain	41	38.0	51.0	44.02272140611028	0.931337243369722
+846	Arm DNA-binding domain	Phage integrase, N-terminal SAM-like domain	229	34.0	84.0	53.44155686354955	4.28505480453531
+851	CRISPR-associated endonuclease Cas9, C-terminal domain	HNH endonuclease	53	6.0	332.0	44.63182720884279	1.1874933946127852
+883	BspA type Leucine rich repeat region (6 copies)	CHU_C Type IX secretion signal domain	36	63.0	14.0	29.698484809834994	1.212183053462653
+895	Cas3 C-terminal domain	Type III restriction enzyme, res subunit	47	21.0	44.0	30.397368307141328	1.546186483155457
+900	Sigma-70 factor, region 1.2	Sigma-70 region 2	35	6.0	67.0	20.049937655763422	1.7456413381883575
+902	Sigma-70 factor, region 1.2	Sigma-70, region 4	32	6.0	67.0	20.049937655763422	1.5960149377722126
+1018	AAA domain	CRISPR associated protein Cas1	30	108.0	95.0	101.2916580968048	0.2961744388795462
+1021	Reverse transcriptase (RNA-dependent DNA polymerase)	UvrD-like helicase C-terminal domain	31	96.0	48.0	67.88225099390856	0.456673129516312
+1030	Alpha helical recognition lobe domain	Nuclease domain	141	14.0	37.0	22.759613353482084	6.195184329808829
+1031	Alpha helical recognition lobe domain	RuvC nuclease domain	210	14.0	45.0	25.099800796022265	8.366600265340756
+1101	GAF domain	Response regulator receiver domain	184	50.0	107.0	73.14369419163897	2.5155962114507604
+1213	CRISPR Csm4 C-terminal domain	RAMP superfamily	234	31.0	45.0	37.3496987939662	6.265110765439491
+1302	Helix-turn-helix domain	Putative transposase DNA-binding domain	259	118.0	62.0	85.53361912137238	3.028049118703588
+1303	Probable transposase	Putative transposase DNA-binding domain	369	56.0	62.0	58.92367945062494	6.262338052212156
+1306	Helix-turn-helix domain	Probable transposase	237	118.0	56.0	81.2896057316063	2.915501900482853
+1312	Prokaryotic N-terminal methylation motif	Type II transport protein GspH	37	33.0	6.0	14.071247279470288	2.6294755017191953
+1356	UvrD-like helicase C-terminal domain	UvrD/REP helicase N-terminal domain	59	48.0	26.0	35.32704346531139	1.6701086253632786
+1445	Csm1 subunit domain B	HD domain	791	64.0	97.0	78.79086241436883	10.03923520775866
+1447	CRISPR RNA silencing complex Cmr2 subunit, second helical domain	Csm1 subunit domain B	92	7.0	64.0	21.166010488516726	4.3465914396061125
+1448	CRISPR RNA silencing complex Cmr2 subunit, second helical domain	HD domain	82	7.0	97.0	26.057628441590765	3.1468711814586787
+1625	Choline-binding repeat	N-acetylmuramoyl-L-alanine amidase	30	45.0	17.0	27.65863337187866	1.0846522890932808
+1758	Glycosyl transferases group 1	Glycosyltransferase Family 4	52	26.0	21.0	23.366642891095847	2.225394561056747
+1853	CRISPR associated protein Cas1	Domain of unknown function DUF83	85	95.0	25.0	48.73397172404482	1.7441631985447619
+1856	CRISPR Cas6 N-terminal domain	CRISPR-associated endoribonuclease Cas6	158	35.0	53.0	43.069710934716056	3.6684713356793193
+1950	GAF domain	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	238	50.0	180.0	94.86832980505137	2.5087402770669143
+1951	GAF domain	PAS fold	228	50.0	82.0	64.03124237432849	3.560761771060218
+1952	GAF domain	PAS domain	172	50.0	59.0	54.31390245600108	3.166776685570232
+1953	GAF domain	His Kinase A (phospho-acceptor) domain	184	50.0	116.0	76.15773105863909	2.416038364618895
+1956	Diguanylate cyclase, GGDEF domain	GAF domain	127	68.0	50.0	58.309518948453004	2.1780320313098622
+1957	EAL domain	GAF domain	62	39.0	50.0	44.15880433163923	1.4040235223392987
+2044	Cas6b C-terminal domain	Cas6b N-terminal domain	502	32.0	32.0	32.0	15.6875
+2376	Diguanylate cyclase, GGDEF domain	Helix-turn-helix domain	33	68.0	118.0	89.57678270623477	0.3683990315685129
+2445	Recombinase	Resolvase, N terminal domain	68	31.0	34.0	32.46536616149585	2.0945397523545712
+2468	AAA domain	Domain of unknown function (DUF4143)	78	108.0	24.0	50.91168824543142	1.532064692570853
+2473	Domain of unknown function (DUF4143)	UvrD-like helicase C-terminal domain	32	24.0	48.0	33.94112549695428	0.9428090415820635
+2477	AAA domain	UvrD/REP helicase N-terminal domain	34	108.0	26.0	52.99056519796708	0.6416236526819377
+2478	AAA domain	UvrD-like helicase C-terminal domain	64	108.0	48.0	72.0	0.8888888888888888
+2656	Methyl-accepting chemotaxis protein (MCP) signalling domain	ParB/Sulfiredoxin domain	48	33.0	88.0	53.88877434122992	0.8907235428302466
+2657	HAMP domain	ParB/Sulfiredoxin domain	47	51.0	88.0	66.9925368977769	0.7015706849811753
+2662	Centromere-binding protein HTH domain	ParB/Sulfiredoxin domain	73	9.0	88.0	28.142494558940577	2.5939420489932603
+2788	Diguanylate cyclase, GGDEF domain	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	199	68.0	180.0	110.63453348751464	1.7987150460796908
+2796	Diguanylate cyclase, GGDEF domain	PAS domain	165	68.0	59.0	63.340350488452465	2.6049745340465242
+2800	Diguanylate cyclase, GGDEF domain	His Kinase A (phospho-acceptor) domain	148	68.0	116.0	88.81441324469807	1.6663961917108663
+2815	Helicase conserved C-terminal domain	WYL domain	65	209.0	27.0	75.11990415329349	0.865283319150111
+2818	DEAD/DEAH box helicase	WYL domain	69	223.0	27.0	77.59510293826537	0.889231373981118
+2870	HAMP domain	His Kinase A (phospho-acceptor) domain	93	51.0	116.0	76.91553809211764	1.2091184994196993
+2873	HAMP domain	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	142	51.0	180.0	95.81231653602788	1.482064155568187
+2878	HAMP domain	Histidine kinase	38	51.0	34.0	41.641325627314025	0.912555002213341
+2950	Diguanylate cyclase, GGDEF domain	EAL domain	119	68.0	39.0	51.49757275833493	2.3107885212073365
+2980	GAF domain	HAMP domain	35	50.0	51.0	50.49752469181039	0.6931032800836721
+2985	Diguanylate cyclase, GGDEF domain	PAS fold	263	68.0	82.0	74.67261881037788	3.5220406648366893
+2994	Bacterial regulatory proteins, lacI family	Periplasmic binding protein-like domain	35	25.0	15.0	19.364916731037084	1.8073922282301278
+3132	BspA type Leucine rich repeat region (6 copies)	SprB repeat	32	63.0	9.0	23.811761799581316	1.3438736818105856
+3207	4Fe-4S single cluster domain	Radical SAM superfamily	60	19.0	28.0	23.065125189341593	2.60132990857236
+3216	CRISPR-associated protein (Cas_Cas2CT1978)	Cas3, HD domain	49	11.0	128.0	37.52332607858744	1.305854387678114
+3218	CRISPR-associated protein (Cas_Cas2CT1978)	DEAD/DEAH box helicase	55	11.0	223.0	49.52776998815917	1.1104881163264386
+3219	CRISPR-associated protein (Cas_Cas2CT1978)	Helicase conserved C-terminal domain	46	11.0	209.0	47.94788837894741	0.9593748870950765
+3786	Histidine kinase	Tetratricopeptide repeat	50	34.0	83.0	53.1224999411737	0.9412207643723194
+3789	Cas3, HD domain	WYL domain	50	128.0	27.0	58.787753826796276	0.8505172717997146
+3951	Bacterial regulatory proteins, gntR family	FCD domain	44	27.0	13.0	18.734993995195193	2.348546255807945
+4029	HTH domain found in ParB protein	ParB/Sulfiredoxin domain	562	52.0	88.0	67.64613810115105	8.30793916364661
+4212	Ankyrin repeat	Ankyrin repeats (3 copies)	48	17.0	45.0	27.65863337187866	1.7354436625492493
+4213	Ankyrin repeat	Ankyrin repeats (many copies)	43	17.0	39.0	25.748786379167466	1.6699816203683273
+4497	Autotransporter beta-domain	BspA type Leucine rich repeat region (6 copies)	30	10.0	63.0	25.099800796022265	1.1952286093343938
+4636	Integrase zinc binding domain	Reverse transcriptase (RNA-dependent DNA polymerase)	30	23.0	96.0	46.98936049788292	0.6384423980690614
+4637	RNase H-like domain found in reverse transcriptase	Reverse transcriptase (RNA-dependent DNA polymerase)	43	19.0	96.0	42.708313008125245	1.006829747450321
+4639	Helix-turn-helix domain	Integrase core domain	30	118.0	49.0	76.03946343840151	0.39453197909928145
+4641	Integrase core domain	Integrase zinc binding domain	55	49.0	23.0	33.57082066318904	1.638327539019873
+4642	Integrase core domain	RNase H-like domain found in reverse transcriptase	43	49.0	19.0	30.512292604784715	1.4092680794905936
+4647	Integrase zinc binding domain	RNase H-like domain found in reverse transcriptase	46	23.0	19.0	20.904544960366874	2.200478416880723
+4693	HTH domain found in ParB protein	Helix-turn-helix	37	52.0	55.0	53.47896782848375	0.6918607726062582
+4694	Helix-turn-helix	ParB/Sulfiredoxin domain	43	55.0	88.0	69.57010852370435	0.6180815426692741
+4754	Competence protein	Sigma-70, region 4	33	6.0	67.0	20.049937655763422	1.6458904045775942
+4755	Domain of unknown function (DUF4131)	Sigma-70, region 4	33	6.0	67.0	20.049937655763422	1.6458904045775942
+4756	Competence protein	Sigma-70 region 2	35	6.0	67.0	20.049937655763422	1.7456413381883575
+4757	Domain of unknown function (DUF4131)	Sigma-70 region 2	35	6.0	67.0	20.049937655763422	1.7456413381883575
+4902	Bacterial regulatory proteins, tetR family	Tetracyclin repressor-like, C-terminal domain	100	30.0	22.0	25.69046515733026	3.8924947208076146
+4907	Tn7-like transposition protein D	TniQ	52	21.0	23.0	21.97726097583591	2.3660819270051086
+4926	CRISPR-associated nuclease/helicase Cas3, I-F/YPEST, Cas2 domain	DEAD/DEAH box helicase	31	7.0	223.0	39.50949253027682	0.7846215685064584
+4940	PAS domain	PAS fold	322	59.0	82.0	69.55573304911681	4.629381157878382
+4943	HAMP domain	PAS domain	52	51.0	59.0	54.85435260760991	0.9479648838802642
+4985	EAL domain	His Kinase A (phospho-acceptor) domain	91	39.0	116.0	67.26068688320095	1.3529448510988697
+4986	EAL domain	PAS domain	102	39.0	59.0	47.968739820845826	2.1263848160479246
+4987	EAL domain	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	113	39.0	180.0	83.78544026261365	1.3486830127742653
+4988	EAL domain	PAS fold	157	39.0	82.0	56.55086206239477	2.776261833582232
+5075	HipA N-terminal domain	HipA-like C-terminal domain	98	45.0	45.0	45.0	2.1777777777777776
+5452	Extended Signal Peptide of Type V secretion system	YadA-like membrane anchor domain	66	16.0	20.0	17.88854381999832	3.689512162874653
+5453	Coiled stalk of trimeric autotransporter adhesin	YadA-like membrane anchor domain	99	21.0	20.0	20.493901531919196	4.830705361095239
+5455	YadA head domain repeat (2 copies)	YadA-like membrane anchor domain	65	11.0	20.0	14.832396974191326	4.382299106011073
+5459	Coiled stalk of trimeric autotransporter adhesin	Extended Signal Peptide of Type V secretion system	72	21.0	16.0	18.33030277982336	3.927922024247863
+5461	Coiled stalk of trimeric autotransporter adhesin	YadA head domain repeat (2 copies)	72	21.0	11.0	15.198684153570664	4.737252203710336
+5466	Extended Signal Peptide of Type V secretion system	YadA head domain repeat (2 copies)	42	16.0	11.0	13.2664991614216	3.165869118066518
+5731	CHASE domain	PAS fold	34	7.0	82.0	23.958297101421877	1.4191325809204598
+5756	TPR repeat	Tetratricopeptide repeat	88	23.0	83.0	43.69210454990696	2.014093871341965
+5805	Cache domain	ParB/Sulfiredoxin domain	31	17.0	88.0	38.67815921162743	0.8014859194922797
+5807	Cache domain	HAMP domain	137	17.0	51.0	29.444863728670914	4.652763934057573
+5808	Cache domain	Methyl-accepting chemotaxis protein (MCP) signalling domain	151	17.0	33.0	23.68543856465402	6.375224996903311
+5810	HTH domain found in ParB protein	Methyl-accepting chemotaxis protein (MCP) signalling domain	31	52.0	33.0	41.42463035441596	0.7483470518571647
+5812	HAMP domain	Methyl-accepting chemotaxis protein (MCP) signalling domain	318	51.0	33.0	41.02438299353203	7.751487695747585
+5814	HAMP domain	HTH domain found in ParB protein	30	51.0	52.0	51.49757275833493	0.582551728035463
+6592	Four helix bundle sensory module for signal transduction	Methyl-accepting chemotaxis protein (MCP) signalling domain	44	4.0	33.0	11.489125293076057	3.8297084310253524
+6596	Four helix bundle sensory module for signal transduction	HAMP domain	36	4.0	51.0	14.2828568570857	2.5205041512504174
+6988	HTH domain found in ParB protein	KorB domain	30	52.0	15.0	27.92848008753788	1.0741723110591495
+7761	DEAD/DEAH box helicase	Helicase C-terminal domain	44	223.0	11.0	49.52776998815917	0.8883904930611509
+8697	PPE family	Pentapeptide repeats (8 copies)	90	9.0	20.0	13.416407864998739	6.7082039324993685
+8927	Collagen triple helix repeat (20 copies)	LPXTG cell wall anchor motif	85	27.0	32.0	29.393876913398138	2.8917587241190295
+8957	Leucine Rich Repeat	Leucine rich repeat	41	35.0	26.0	30.166206257996713	1.3591367654701816
+8959	Leucine Rich Repeat	Secretion system C-terminal sorting domain	32	35.0	51.0	42.24926034855522	0.7574097093298414
+8960	Calx-beta domain	Leucine Rich Repeat	36	13.0	35.0	21.330729007701542	1.6877060313785834
+8961	Leucine Rich Repeat	Leucine rich repeat N-terminal domain	31	35.0	16.0	23.664319132398465	1.3099890948292008
+9038	HAMP domain	PAS fold	53	51.0	82.0	64.66838485689897	0.8195658530405656
+10170	Actin like proteins N terminal domain	Archaeal actin homologue MreB-like, C-terminal	30	7.0	7.0	7.0	4.285714285714286
