@@ -1,0 +1,22 @@
+Top 20 in network co_occurrence_symmetric_k_13_fisher_th_0_0001.csv ranked by Degree method
+Rank,Name,Score
+1, C-terminal domain",108.0
+2, N-terminal domain",67.0
+3,"Bacterial regulatory proteins,66.0
+4,"Initiator Rep protein,51.0
+5,"Initiator Replication protein,50.0
+6,AAA domain,49.0
+7,BspA type Leucine rich repeat region (6 copies),48.0
+8, N-terminal",41.0
+9,Putative cell wall binding repeat,35.0
+10,Reverse transcriptase (RNA-dependent DNA polymerase),33.0
+10,Listeria-Bacteroides repeat domain (List_Bact_rpt),33.0
+12,"Histidine kinase-,32.0
+12,Secretion system C-terminal sorting domain,32.0
+12,"Bifunctional DNA primase/polymerase,32.0
+15,His Kinase A (phospho-acceptor) domain,31.0
+15,Choline-binding repeat,31.0
+17,Family of unknown function (DUF5906),30.0
+17,Bacterial Ig domain,30.0
+19,FIVAR domain,29.0
+20,CRISPR associated protein Cas1,28.0

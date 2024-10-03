@@ -1,0 +1,201 @@
+,Label1,Label2,Count,Total_Label_1,Total_Label_2,p_value,p_value_fdr
+47,"DNA polymerase III beta subunit, C-terminal domain","DNA polymerase III beta subunit, central domain",332,860,860,0.0,0.0
+554,Arm DNA-binding domain,Phage integrase family,452,1054,2975,0.0,0.0
+276,Sigma-70 region 2,"Sigma-70, region 4",605,1441,1376,0.0,0.0
+274,"Cas3, HD domain",Helicase conserved C-terminal domain,1876,6232,8058,0.0,0.0
+44,"DNA polymerase III beta subunit, C-terminal domain","DNA polymerase III beta subunit, N-terminal domain",292,860,740,0.0,0.0
+45,"DNA polymerase III beta subunit, N-terminal domain","DNA polymerase III beta subunit, central domain",292,740,860,0.0,0.0
+271,"Cas3, HD domain",DEAD/DEAH box helicase,2191,6232,8905,0.0,0.0
+270,DEAD/DEAH box helicase,Helicase conserved C-terminal domain,2932,8905,8058,0.0,0.0
+260,Nuclease domain,RuvC nuclease domain,413,906,1167,0.0,0.0
+1584,CRISPR Csm4 C-terminal domain,RAMP superfamily,346,519,540,0.0,0.0
+1880,Csm1 subunit domain B,HD domain,1141,1892,3234,0.0,0.0
+427,"Initiator Rep protein, WH2","Initiator Replication protein, WH1",1980,4247,4247,0.0,0.0
+203,HNH endonuclease,RuvC endonuclease subdomain 3,7900,21075,16288,0.0,0.0
+202,Cas9 alpha-helical lobe domain,HNH endonuclease,1763,4180,21075,0.0,0.0
+2418,CRISPR Cas6 N-terminal domain,CRISPR-associated endoribonuclease Cas6,223,383,653,0.0,0.0
+200,HNH endonuclease,PAM-interacting domain of CRISPR-associated endonuclease Cas9,1515,21075,3496,0.0,0.0
+199,HNH endonuclease,REC lobe of CRISPR-associated endonuclease Cas9,1760,21075,4506,0.0,0.0
+2675,Cas6b C-terminal domain,Cas6b N-terminal domain,696,1125,1125,0.0,0.0
+1693,Helix-turn-helix domain,Putative transposase DNA-binding domain,390,2115,1528,0.0,0.0
+5345,HTH domain found in ParB protein,ParB/Sulfiredoxin domain,804,1445,1944,0.0,0.0
+1694,Probable transposase,Putative transposase DNA-binding domain,535,1430,1528,0.0,0.0
+1697,Helix-turn-helix domain,Probable transposase,368,2115,1430,0.0,0.0
+796,"CRISPR associated protein Cas6, C-terminal","CRISPR-associated protein Cas6, N-terminal",857,1319,1364,0.0,0.0
+1081,Arm DNA-binding domain,"Phage integrase, N-terminal SAM-like domain",348,1054,2634,0.0,0.0
+553,Phage integrase family,"Phage integrase, N-terminal SAM-like domain",1382,2975,2634,0.0,0.0
+306,Alpha helical recognition lobe domain,RuvC nuclease domain,276,574,1167,0.0,0.0
+7669,HAMP domain,Methyl-accepting chemotaxis protein (MCP) signalling domain,422,2068,1280,0.0,0.0
+344,Cas9 alpha-helical lobe domain,RuvC endonuclease subdomain 3,1523,4180,16288,0.0,0.0
+969,Ankyrin repeats (3 copies),Ankyrin repeats (many copies),170,512,463,5.94957305814e-312,2.510598410676745e-309
+323,His Kinase A (phospho-acceptor) domain,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",804,4527,6352,6.955785821488202e-305,2.8200937927629717e-302
+193,CRISPR associated protein Cas1,Reverse transcriptase (RNA-dependent DNA polymerase),296,1386,1632,2.4645004376015544e-302,9.799706836209103e-300
+204,PAM-interacting domain of CRISPR-associated endonuclease Cas9,REC lobe of CRISPR-associated endonuclease Cas9,586,3496,4506,1.0039329839838764e-284,3.916664586761248e-282
+6507,"Bacterial regulatory proteins, tetR family","Tetracyclin repressor-like, C-terminal domain",132,392,261,4.938281122873952e-282,1.890904421808606e-279
+210,Bridge helix of CRISPR-associated endonuclease Cas9,REC lobe of CRISPR-associated endonuclease Cas9,421,1651,4506,3.124471787462487e-279,1.1746309663520335e-276
+4507,HipA N-terminal domain,HipA-like C-terminal domain,136,351,351,2.7653554647187386e-278,1.02105812399981e-275
+635,TonB dependent receptor,TonB-dependent Receptor Plug Domain,124,276,286,6.854417859142853e-277,2.486470141640295e-274
+307,Alpha helical recognition lobe domain,Nuclease domain,177,574,906,1.329646074322039e-258,4.507064242419148e-256
+7665,Cache domain,Methyl-accepting chemotaxis protein (MCP) signalling domain,208,809,1280,3.66986180455235e-252,1.2044719449639516e-249
+156,DEAD/DEAH box helicase,"Type III restriction enzyme, res subunit",520,8905,1671,1.5725747807995637e-248,5.08064511603009e-246
+7228,Coiled stalk of trimeric autotransporter adhesin,YadA-like membrane anchor domain,158,627,582,4.033662498089681e-248,1.2831390688153896e-245
+11405,PPE family,Pentapeptide repeats (8 copies),96,184,238,5.159966925525495e-230,1.6165550927134948e-227
+548,Phage integrase SAM-like domain,Phage integrase family,210,512,2975,3.111146981414636e-225,9.601371064882153e-223
+639,Choline-binding repeat,Putative cell wall binding repeat,239,1581,1390,4.904291659275077e-222,1.4912652741004526e-219
+2937,PAS domain,PAS fold,495,3511,4419,2.2202706460140263e-208,6.653411035888698e-206
+157,Helicase conserved C-terminal domain,"Type III restriction enzyme, res subunit",442,8058,1671,1.109022295021109e-196,3.184896388076593e-194
+275,Cas3 C-terminal domain,Helicase conserved C-terminal domain,384,1295,8058,7.314574800980359e-190,2.0438305832414984e-187
+272,Cas3 C-terminal domain,DEAD/DEAH box helicase,400,1295,8905,1.9422265135144728e-189,5.354589015991834e-187
+587,"KhpA/KhpB, KH domain",R3H domain,128,613,681,2.57264536184907e-178,6.733492170500408e-176
+7234,Coiled stalk of trimeric autotransporter adhesin,Extended Signal Peptide of Type V secretion system,117,627,462,2.8912666716182786e-178,7.472840121131392e-176
+3507,Collagen triple helix repeat (20 copies),LPXTG cell wall anchor motif,106,334,577,1.682902579870036e-177,4.295972425181819e-175
+322,PAS fold,Response regulator receiver domain,494,4419,4193,6.572856275575644e-174,1.6574018196350927e-171
+1882,"CRISPR RNA silencing complex Cmr2 subunit, second helical domain",Csm1 subunit domain B,125,250,1892,7.253051409206684e-173,1.806883662508031e-170
+7664,Cache domain,HAMP domain,182,809,2068,2.601421841620909e-169,6.328188166964181e-167
+7227,Extended Signal Peptide of Type V secretion system,YadA-like membrane anchor domain,109,462,582,6.49415504232836e-166,1.5613912070956222e-163
+549,Phage integrase SAM-like domain,"Phage integrase, N-terminal SAM-like domain",164,512,2634,2.3486060515585587e-163,5.518423560008672e-161
+7236,Coiled stalk of trimeric autotransporter adhesin,YadA head domain repeat (2 copies),105,627,390,6.931225756312293e-163,1.6103028647558346e-160
+626,Cas3 C-terminal domain,"Cas3, HD domain",315,1295,6232,4.972260752722855e-160,1.129795995429126e-157
+6516,Tn7-like transposition protein D,TniQ,86,322,328,1.8069211998242028e-159,4.0610553966048955e-157
+329,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",PAS fold,586,6352,4419,3.097195342567626e-156,6.886097644975356e-154
+159,"Cas3, HD domain","Type III restriction enzyme, res subunit",350,6232,1671,9.260229696972277e-156,2.0369549940882528e-153
+794,CRISPR associated protein Cas1,Domain of unknown function DUF83,106,1386,233,1.754559627247964e-155,3.8188452013269634e-153
+325,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",PAS domain,507,6352,3511,5.721419306384551e-150,1.2196060515269419e-147
+7230,YadA head domain repeat (2 copies),YadA-like membrane anchor domain,97,390,582,6.917535973158713e-150,1.4595295032347215e-147
+1555,TPR repeat,Tetratricopeptide repeat,125,459,1407,9.80036315675508e-149,2.0468899898204524e-146
+599,Jag N-terminus,R3H domain,104,461,681,3.0567780298784852e-148,6.320499932379744e-146
+3926,"Diguanylate cyclase, GGDEF domain",PAS fold,384,2991,4419,1.1921665604924862e-146,2.440636432802291e-144
+1428,4Fe-4S single cluster domain,Radical SAM superfamily,83,327,439,6.988163044497191e-140,1.4166102673634158e-137
+3514,Centromere-binding protein HTH domain,ParB/Sulfiredoxin domain,105,228,1944,5.522289886407769e-139,1.1085862910801305e-136
+102,Starch-binding associating with outer membrane,SusD family,62,191,191,3.506432315267602e-137,6.971394325268096e-135
+426,CRISPR-Cas9 WED domain,HNH endonuclease,472,1115,21075,3.771628621269807e-137,7.427234762094838e-135
+338,His Kinase A (phospho-acceptor) domain,PAS domain,404,4527,3511,2.622036869545217e-134,5.114703429394949e-132
+5591,Ankyrin repeat,Ankyrin repeats (3 copies),75,210,512,5.845024557886022e-134,1.1295100260131708e-131
+5233,"Bacterial regulatory proteins, gntR family",FCD domain,68,357,192,1.2264965341448495e-132,2.3481730404178755e-130
+2551,GAF domain,PAS fold,338,2663,4419,2.5289251778823405e-127,4.668802312774389e-125
+416,"Diguanylate cyclase, GGDEF domain",Response regulator receiver domain,349,2991,4193,3.0242898344318628e-127,5.533915124473241e-125
+590,Jag N-terminus,"KhpA/KhpB, KH domain",90,461,613,3.208894547301037e-126,5.820202855661714e-124
+425,CRISPR-Cas9 PI domain,HNH endonuclease,435,1029,21075,3.315362121000193e-126,5.961021093558347e-124
+342,His Kinase A (phospho-acceptor) domain,PAS fold,442,4527,4419,4.026338477014031e-125,7.17694833527751e-123
+1883,"CRISPR RNA silencing complex Cmr2 subunit, second helical domain",HD domain,113,250,3234,3.0834512632799484e-123,5.357690905112563e-121
+318,PAS domain,Response regulator receiver domain,371,3511,4193,7.493238657885829e-122,1.2911474644092107e-119
+6,Recombinase,"Resolvase, N terminal domain",98,708,700,6.92782896496453e-116,1.1838571860212528e-113
+6137,Integrase core domain,Integrase zinc binding domain,76,588,325,1.5957596257001259e-114,2.682562746390366e-112
+551,Arm DNA-binding domain,Phage integrase SAM-like domain,98,1054,512,1.6205444129670283e-112,2.6384249470015154e-110
+1702,Prokaryotic N-terminal methylation motif,Type II transport protein GspH,53,340,124,7.242921179347613e-110,1.1609448157005473e-107
+424,CRISPR-Cas9 WED domain,RuvC endonuclease subdomain 3,378,1115,16288,2.238568565490472e-109,3.560529402203576e-107
+3270,AAA domain,Domain of unknown function (DUF4143),108,1791,466,1.2250749815292851e-108,1.9190057115970476e-106
+317,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",Response regulator receiver domain,489,6352,4193,1.3784644106812015e-108,2.143045760876331e-106
+2552,GAF domain,PAS domain,279,2663,3511,1.8917591180241535e-108,2.919097259954136e-106
+419,KorB domain,ParB/Sulfiredoxin domain,85,212,1944,4.0216225221412815e-106,6.114344771346712e-104
+600,ABC transporter,R3H domain,82,493,681,8.494436560617793e-105,1.2727497446658994e-102
+459,CRISPR-associated endonuclease Cas9 beta-hairpin domain,Cas9 C-terminal domain,108,937,937,9.10319486968e-105,1.3349415625558394e-102
+458,Cas9 C-terminal domain,Topo homolgy domain in CRISPR-associated endonuclease Cas9,108,937,937,9.10319486968e-105,1.3349415625558394e-102
+465,CRISPR-associated endonuclease Cas9 beta-hairpin domain,Topo homolgy domain in CRISPR-associated endonuclease Cas9,108,937,937,9.10319486968e-105,1.3349415625558394e-102
+6145,Integrase zinc binding domain,RNase H-like domain found in reverse transcriptase,62,325,331,7.566824131700524e-104,1.1018255110645896e-101
+212,REC lobe of CRISPR-associated endonuclease Cas9,RuvC endonuclease subdomain 3,909,4506,16288,4.1049277041691606e-103,5.935495813923479e-101
+5593,Ankyrin repeat,Ankyrin repeats (many copies),60,210,463,6.172379367134371e-103,8.862936678766486e-101
+2550,GAF domain,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",368,2663,6352,1.3305540040778004e-102,1.8973700098149433e-100
+201,Bridge helix of CRISPR-associated endonuclease Cas9,HNH endonuclease,540,1651,21075,1.9768187496284416e-102,2.7996357045251565e-100
+2299,Glycosyl transferases group 1,Glycosyltransferase Family 4,56,316,260,3.225689199810286e-98,4.38799839371561e-96
+423,CRISPR-Cas9 PI domain,RuvC endonuclease subdomain 3,341,1029,16288,1.1403517920199486e-95,1.5411146407579398e-93
+7241,Extended Signal Peptide of Type V secretion system,YadA head domain repeat (2 copies),64,462,390,1.1403668585264361e-92,1.5311276320617609e-90
+8610,Four helix bundle sensory module for signal transduction,Methyl-accepting chemotaxis protein (MCP) signalling domain,66,188,1280,4.969624523503654e-90,6.629479114353875e-88
+316,His Kinase A (phospho-acceptor) domain,Response regulator receiver domain,371,4527,4193,3.3644375160394156e-89,4.459389392253013e-87
+13205,Actin like proteins N terminal domain,"Archaeal actin homologue MreB-like, C-terminal",42,169,169,3.908549726086736e-89,5.147584884477417e-87
+602,ABC transporter transmembrane region,R3H domain,66,341,681,4.8033529302302165e-89,6.286008135339886e-87
+140,BspA type Leucine rich repeat region (6 copies),Secretion system C-terminal sorting domain,146,1981,1403,8.471121108255716e-89,1.1016186865119713e-86
+6138,Integrase core domain,RNase H-like domain found in reverse transcriptase,63,588,331,1.1105467186539463e-88,1.435173406350478e-86
+591,ABC transporter,"KhpA/KhpB, KH domain",70,493,613,1.1884758358479678e-87,1.5263425377533187e-85
+1775,UvrD-like helicase C-terminal domain,UvrD/REP helicase N-terminal domain,84,967,601,1.6436335395884108e-87,2.097864857905529e-85
+6621,EAL domain,PAS fold,224,1711,4419,7.903240856163557e-87,9.964348242859382e-85
+1438,GAF domain,Response regulator receiver domain,272,2663,4193,1.1647544864150411e-85,1.4596138494305337e-83
+2553,GAF domain,His Kinase A (phospho-acceptor) domain,279,2663,4527,6.2047669648829025e-83,7.682393205561903e-81
+262,CRISPR-associated endonuclease Cas9 alpha-helical lobe,Nuclease domain,53,139,906,6.609084670999979e-83,8.134288317992057e-81
+9329,"AefR-like transcriptional repressor, C-terminal domain","Bacterial regulatory proteins, tetR family",39,76,392,1.7408342882555146e-82,2.1298953004887142e-80
+3715,"Diguanylate cyclase, GGDEF domain",PAS domain,257,2991,3511,3.6319602324397e-81,4.4175318662444516e-79
+266,CRISPR-associated endonuclease Cas9 alpha-helical lobe,RuvC nuclease domain,55,139,1167,6.02811131685009e-81,7.289079397573644e-79
+141,BspA type Leucine rich repeat region (6 copies),"Mycoplasma protein of unknown function, DUF285",111,1981,823,9.854029718382328e-80,1.1846033284127406e-77
+3999,"Bacterial regulatory proteins, lacI family",Periplasmic binding protein-like domain,47,405,230,8.254799632090265e-76,9.809453562800599e-74
+509,HTH-like domain,Integrase core domain,42,102,588,9.384927707831339e-76,1.1088694297990205e-73
+493,EAL domain,Response regulator receiver domain,203,1711,4193,4.496452767456951e-75,5.252720557780078e-73
+593,ABC transporter transmembrane region,"KhpA/KhpB, KH domain",56,341,613,6.009088983062245e-74,6.94133703367475e-72
+615,Histidine kinase,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",180,960,6352,5.594437748172196e-71,6.286749419508506e-69
+326,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",Recombinase,154,6352,708,3.724723784795883e-70,4.163033172876998e-68
+9363,CRISPR-associated protein (Cas_Cas02710),Domain of unknown function (DUF1887),40,282,226,1.6745165115428672e-68,1.8515496208113296e-66
+208,PAM-interacting domain of CRISPR-associated endonuclease Cas9,RuvC endonuclease subdomain 3,670,3496,16288,9.055730540129109e-67,9.907160866574053e-65
+608,ABC transporter,Jag N-terminus,53,493,461,1.532492240418535e-66,1.667754845007055e-64
+9331,"AefR-like transcriptional repressor, C-terminal domain","Tetracyclin repressor-like, C-terminal domain",30,76,261,1.0688916174986974e-64,1.1392511327330188e-62
+3925,"Diguanylate cyclase, GGDEF domain",EAL domain,159,2991,1711,4.938622827868368e-64,5.183548437148946e-62
+164,DEAD/DEAH box helicase,HD domain,419,8905,3234,8.494302746376678e-64,8.870540297314675e-62
+8616,Four helix bundle sensory module for signal transduction,HAMP domain,58,188,2068,2.4291454382752217e-63,2.5239919712169227e-61
+1703,Prokaryotic N-terminal methylation motif,"Type II secretion system (T2SS), protein I",30,340,67,3.472417127649234e-63,3.589958447420161e-61
+11634,Leucine Rich Repeat,Leucine rich repeat,58,756,482,5.913412937879117e-63,6.053051451313194e-61
+6133,RNase H-like domain found in reverse transcriptase,Reverse transcriptase (RNA-dependent DNA polymerase),64,331,1632,6.714784677986292e-62,6.805960920917772e-60
+50,"Bacterial regulatory helix-turn-helix protein, lysR family",LysR substrate binding domain,56,589,589,4.346967974228097e-61,4.384500331859237e-59
+191,Actin like proteins N terminal domain,CRISPR associated protein Cas1,49,169,1386,1.1979479655321735e-60,1.1966169122371377e-58
+192,"Archaeal actin homologue MreB-like, C-terminal",CRISPR associated protein Cas1,49,169,1386,1.1979479655321735e-60,1.1966169122371377e-58
+6624,EAL domain,PAS domain,160,1711,3511,1.682173712415188e-55,1.6406748043211721e-53
+14274,"CRISPR-associated protein Cmr2, N-terminal",minimal CRISPR polymerase domain,16,30,30,1.0405772204021313e-54,1.0101415580401347e-52
+11688,Calx-beta domain,Leucine Rich Repeat,50,413,756,1.5591899928728596e-54,1.5065126861043046e-52
+3277,AAA domain,UvrD-like helicase C-terminal domain,90,1791,967,1.6623976505106684e-54,1.5987626148655392e-52
+2556,"Diguanylate cyclase, GGDEF domain",GAF domain,184,2991,2663,2.2855145598600428e-54,2.187851136769727e-52
+610,ABC transporter transmembrane region,Jag N-terminus,41,341,461,1.0774504666795723e-53,1.0219469403455742e-51
+6309,Competence protein,Sigma-70 region 2,44,158,1441,5.653816751207054e-53,5.3138167711231023e-51
+6310,Domain of unknown function (DUF4131),Sigma-70 region 2,44,158,1441,5.653816751207054e-53,5.3138167711231023e-51
+401,"Diguanylate cyclase, GGDEF domain","Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",301,2991,6352,8.063145070059704e-53,7.54396609111423e-51
+634,Outer membrane protein beta-barrel family,TonB-dependent Receptor Plug Domain,24,54,286,1.6115370273594864e-52,1.5009797799419866e-50
+11689,Leucine Rich Repeat,Leucine rich repeat N-terminal domain,47,756,395,5.828661728129128e-51,5.3803231496663375e-49
+195,Actin like proteins N terminal domain,Reverse transcriptase (RNA-dependent DNA polymerase),45,169,1632,9.556298785587317e-51,8.743167698654378e-49
+196,"Archaeal actin homologue MreB-like, C-terminal",Reverse transcriptase (RNA-dependent DNA polymerase),45,169,1632,9.556298785587317e-51,8.743167698654378e-49
+7238,Coiled stalk of trimeric autotransporter adhesin,PGRS repeats,35,627,163,1.1485775114579886e-50,1.0462174979919307e-48
+457,Cas9 C-terminal domain,RuvC endonuclease subdomain 3,250,937,16288,1.7436845343486654e-50,1.5675723963794503e-48
+463,RuvC endonuclease subdomain 3,Topo homolgy domain in CRISPR-associated endonuclease Cas9,250,16288,937,1.7436845343486652e-50,1.5675723963794503e-48
+469,CRISPR-associated endonuclease Cas9 beta-hairpin domain,RuvC endonuclease subdomain 3,250,937,16288,1.7436845343486654e-50,1.5675723963794503e-48
+472,CRISPR-associated endonuclease Cas9 beta-hairpin domain,HNH endonuclease,290,937,21075,4.2673329997449624e-50,3.786937529430326e-48
+460,Cas9 C-terminal domain,HNH endonuclease,290,937,21075,4.2673329997449624e-50,3.786937529430326e-48
+466,HNH endonuclease,Topo homolgy domain in CRISPR-associated endonuclease Cas9,290,21075,937,4.267332999744963e-50,3.786937529430326e-48
+327,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase","Resolvase, N terminal domain",128,6352,700,1.331860058637417e-49,1.176874804805379e-47
+6308,Domain of unknown function (DUF4131),"Sigma-70, region 4",41,158,1376,7.523786642308587e-49,6.564107021224246e-47
+6307,Competence protein,"Sigma-70, region 4",41,158,1376,7.523786642308587e-49,6.564107021224246e-47
+1699,Tetratricopeptide repeat,TolA binding protein trimerisation,35,1407,90,8.583243500023437e-49,7.456963271007757e-47
+136,BspA type Leucine rich repeat region (6 copies),Leucine Rich Repeat,79,1981,756,1.5081142080612124e-48,1.3047396435180623e-46
+518,Prealbumin-like fold domain,Spy0128-like isopeptide containing domain,40,694,287,7.009186328463612e-48,6.038706071401755e-46
+339,His Kinase A (phospho-acceptor) domain,Recombinase,108,4527,708,7.332356061315348e-48,6.29091810289699e-46
+636,Outer membrane protein beta-barrel family,TonB dependent receptor,22,54,276,1.623705985056449e-47,1.3816201091774565e-45
+1639,CarboxypepD_reg-like domain,TonB-dependent Receptor Plug Domain,22,54,286,3.6573613539299707e-47,3.099313963738115e-45
+7237,Coiled stalk of trimeric autotransporter adhesin,PE family,35,627,203,4.958689105492e-47,4.1849312095615545e-45
+974,"Mycoplasma protein of unknown function, DUF285",Secretion system C-terminal sorting domain,70,823,1403,6.146267754301903e-47,5.166112941288636e-45
+521,LPXTG cell wall anchor motif,Prealbumin-like fold domain,48,577,694,3.0491439451275926e-46,2.5525161681539767e-44
+7232,PGRS repeats,YadA-like membrane anchor domain,32,163,582,4.1537111522070475e-46,3.463156673152626e-44
+1174,"Sigma-70 factor, region 1.2",Sigma-70 region 2,40,162,1441,6.199027815625418e-46,5.127091925747471e-44
+1643,CarboxypepD_reg-like domain,TonB dependent receptor,21,54,276,7.143888914699366e-45,5.79271337604858e-43
+4306,Histidine kinase,Tetratricopeptide repeat,72,960,1407,1.8716236294605278e-44,1.5117016322795052e-42
+340,His Kinase A (phospho-acceptor) domain,"Resolvase, N terminal domain",103,4527,700,2.989871082367267e-44,2.4055083412493378e-42
+1012,FecR protein,"FecR, C-terminal",24,218,139,6.014113844494451e-44,4.8199159675430915e-42
+3273,Domain of unknown function (DUF4143),UvrD-like helicase C-terminal domain,48,466,967,6.75404669737565e-44,5.392024075738854e-42
+4640,"BRO family, N-terminal domain",ORF6C domain,16,60,57,4.2243574287842425e-43,3.3466298296924055e-41
+3512,Centromere-binding protein HTH domain,KorB domain,26,228,212,7.227521163426601e-43,5.703948667792818e-41
+7231,PE family,YadA-like membrane anchor domain,32,203,582,8.100033664422744e-43,6.368227987804907e-41
+12592,3'-5' exonuclease,DNA polymerase family A,22,149,149,1.3324325764301636e-42,1.0435874387441854e-40
+9116,Centromere-binding protein HTH domain,HTH domain found in ParB protein,42,228,1445,2.5525319120992416e-42,1.9916491451500383e-40
+143,BspA type Leucine rich repeat region (6 copies),Calx-beta domain,57,1981,413,4.390013678352715e-42,3.4124929634322963e-40
+598,HhH-GPD superfamily base excision DNA repair protein,R3H domain,30,152,681,2.580851661966829e-41,1.9691612477670892e-39
+328,"Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase",Recombinase zinc beta ribbon domain,82,6352,345,4.1115783147225034e-41,3.125555324026368e-39
+6045,Transposase IS66 family,zinc-finger of transposase IS204/IS1001/IS1096/IS1165,20,132,123,7.802758060230064e-41,5.90980323851198e-39
+1178,"Sigma-70 factor, region 1.2","Sigma-70, region 4",36,162,1376,2.2205437562028457e-40,1.6757001185038774e-38
+15766,DEAD_2,Helicase C-terminal domain,18,50,207,3.2900554041458402e-40,2.473762748782674e-38
+6043,Helix-turn-helix domain of transposase family ISL3,Transposase IS66 family,19,102,132,4.681899041034963e-40,3.5075226982420263e-38
+1164,CRISPR-associated protein (Cas_Cas2CT1978),DEAD/DEAH box helicase,82,265,8905,6.641746656974627e-40,4.957812116471637e-38
+477,HNH endonuclease,RRXRR protein,181,21075,516,7.233612628995476e-40,5.380194544235232e-38
+5537,"Bacterial regulatory proteins, lacI family",Glycosyl transferases group 1,31,405,316,8.682314298808555e-40,6.434559597005895e-38
+7243,Extended Signal Peptide of Type V secretion system,PGRS repeats,27,462,163,1.09956581243355e-39,8.119900822745898e-38
+7885,Leucine Rich Repeat,Leucine Rich repeats (2 copies),36,756,298,1.4685470303598742e-39,1.0806102116281536e-37
+9339,ParB/Sulfiredoxin domain,RepB plasmid partitioning protein,32,1944,86,1.6318562832325413e-39,1.1965210059716047e-37
+345,Bridge helix of CRISPR-associated endonuclease Cas9,RuvC endonuclease subdomain 3,335,1651,16288,5.7507885510247575e-39,4.1869385517443276e-37
+1171,CRISPR-associated protein (Cas_Cas2CT1978),"Cas3, HD domain",69,265,6232,4.3904264561528913e-38,3.1741555186669e-36
+9115,HTH domain found in ParB protein,KorB domain,38,1445,212,5.992995134894758e-38,4.3176710942236554e-36
+6041,zinc-finger binding domain of transposase IS66,zinc-finger of transposase IS204/IS1001/IS1096/IS1165,18,108,123,1.2291293152919663e-37,8.76369201803172e-36
+4007,"Bacterial regulatory proteins, lacI family",Periplasmic binding proteins and sugar binding domain of LacI family,25,405,160,1.3032741808090527e-37,9.260412452436007e-36
+7242,Extended Signal Peptide of Type V secretion system,PE family,27,462,203,5.96730420244278e-37,4.211124539041275e-35
+408,"Diguanylate cyclase, GGDEF domain",His Kinase A (phospho-acceptor) domain,213,2991,4527,6.7611473748157686e-37,4.755110349287947e-35
